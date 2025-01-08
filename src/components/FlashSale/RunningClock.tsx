@@ -16,7 +16,7 @@ const CountdownTimer = () => {
 
         const updateCountdown = () => {
             const now = new Date();
-            const timeDifference = targetDate - now;
+            const timeDifference = targetDate.getTime() - now.getTime();
 
             if (timeDifference > 0) {
                 const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24))
