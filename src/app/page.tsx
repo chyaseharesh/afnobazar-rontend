@@ -8,9 +8,9 @@ import { Carousel } from "react-responsive-carousel";
 import { NeonGradientCard } from "@/components/ui/neon-gradient-card";
 import ShimmerButton from "@/components/ui/shimmer-button";
 import { AppleIcon, PlayIcon } from "lucide-react";
-import Countdowns from "@/components/FlashSale/Countdown";
 import ProductList from "@/components/ProductList/ProductList";
 import CategorySlider from "@/components/CategorySlider/CategorySlider";
+import Countdowns from "@/components/FlashSale/Countdown";
 
 export default function Home() {
 
